@@ -1,0 +1,28 @@
+.navegacion{
+    background-color: rgb(252, 156, 255);
+}
+
+.logo{
+    width: 65px;
+}
+
+.boton{
+    border: solid rgb(229, 255, 0);
+}
+
+.boton:hover{
+    background-color: rgb(229, 255, 0);
+    color: rgb(252, 156, 255);
+}
+
+.footer{
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    min-width: 100%;
+}
+.pfooter{
+    height: 100px;
+    bottom: 0;
+    min-width: 100%;
+}

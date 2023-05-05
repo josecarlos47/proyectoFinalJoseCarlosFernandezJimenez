@@ -1,1 +1,1 @@
-asdasdasdasdasd
+Para las cards de los productos usar display flex

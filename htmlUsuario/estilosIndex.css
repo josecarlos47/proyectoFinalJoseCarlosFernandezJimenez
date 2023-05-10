@@ -1,5 +1,5 @@
 .navegacion{
-    background-color: rgb(252, 156, 255);
+    background-color: rgb(242, 0, 0);
 }
 
 .logo{
@@ -12,14 +12,25 @@
 
 .boton:hover{
     background-color: rgb(229, 255, 0);
-    color: rgb(252, 156, 255);
+    color: rgb(255, 0, 0);
+}
+
+.delete{
+    background-color: rgb(255, 0, 0);
+}
+
+.delete:hover{
+    border: solid rgb(255, 0, 0);
+    background-color: white;
+    color: rgb(255, 0, 0);
 }
 
 .footer{
-    position: fixed;
     height: 100px;
     bottom: 0;
     min-width: 100%;
+    padding-right:0px;
+    padding-left:0px;
 }
 .pfooter{
     height: 100px;
@@ -40,4 +51,8 @@
 .cont{
     background-color: rgba(255, 255, 255, 0.429);
     height: 400px;
+}
+
+.adminLogo{
+    width: 30px;
 }

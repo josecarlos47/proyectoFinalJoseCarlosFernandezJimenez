@@ -56,3 +56,16 @@
 .adminLogo{
     width: 30px;
 }
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.acercaDe{
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+}

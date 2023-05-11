@@ -31,6 +31,7 @@
     min-width: 100%;
     padding-right:0px;
     padding-left:0px;
+    display: block;
 }
 .pfooter{
     height: 100px;
@@ -62,6 +63,16 @@ p{
     font-size: larger;
 }
 
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
 .acercaDe{
     margin-bottom: 100px;
     margin-left: 100px;
@@ -69,3 +80,25 @@ p{
     margin-top: 50px;
     text-align: center;
 }
+
+.informacionProductos tr{
+    border: solid 5px rgb(255, 0, 0);
+}
+
+.informacionProductos td{
+    border: solid 5px rgb(255, 0, 0);
+}
+
+.informacionProductos th{
+    border: solid 5px rgb(255, 0, 0);
+    text-align: center;
+}
+
+.informacionProductos th:hover{
+    background-color: rgb(229, 255, 0);    
+}
+
+.descripcionProducto{
+    margin-left: 500px;
+}
+

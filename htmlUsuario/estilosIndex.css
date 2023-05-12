@@ -43,7 +43,7 @@
 }
 
 .fondo{
-    background-image: url(/img/wallpaper.png);
+    background-image: url(img/wallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -102,3 +102,12 @@ th{
     margin-left: 500px;
 }
 
+.carrusel{
+    width: 100%;
+    height: 300px;
+}
+
+.carrusel img{
+    width: 100%;
+    height: 300px;
+}

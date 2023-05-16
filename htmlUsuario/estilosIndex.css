@@ -46,7 +46,6 @@
     background-image: url(img/wallpaper.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     color: rgb(0, 0, 0);
 }
 .cont{
@@ -79,6 +78,12 @@ th{
     margin-right: 100px;
     margin-top: 50px;
     text-align: center;
+}
+
+.pinfo{
+    background-color: rgba(255, 255, 255, 0.737);
+    border-radius: 10px;
+    border: solid black 3px;
 }
 
 .informacionProductos tr{

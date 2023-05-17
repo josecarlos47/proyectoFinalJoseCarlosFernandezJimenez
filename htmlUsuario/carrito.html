@@ -5,74 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="../estilosIndex.css">
-    
-    <title>Recogemelazas MR Shisha</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilosIndex.css">
+    <title>Cachimbas</title>
 </head>
 <body>
-    <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-light navegacion">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../indice.html"><img src="../img/el quinto Carbon.png" alt="Logo empresa" class="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="../cachimbas.html">Cachimbas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../cazoletas.html">Cazoletas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../accesorios.html">Accesorios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../carbones.html">Carbones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../formulario.html">Iniciar Sesión</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../acercade.html">Acerca de Nosotros</a>
-            </li>
-          </ul>
-          <form class="d-flex ms-auto">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn boton" type="submit">Buscar</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light navegacion">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="indice.html"><img src="img/el quinto Carbon.png" alt="Logo empresa" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="cachimbas.html">Cachimbas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cazoletas.html">Cazoletas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="accesorios.html">Accesorios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="carbones.html">Carbones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="formulario.html">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="acercade.html">Acerca de Nosotros</a>
+                </li>
+              </ul>
+              <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn boton" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
 <!--Fin barra navegacion-->
-<!--Contenido-->
-<div class="row">
-  <div class="col-sm-4">
-      <div data-aos="zoom-in-right" class="card mt-4 mb-4 ms-5" style="width: 18rem;">
-          <img class="card-img-top" src="../img/recogeMelazas.jpg" alt="Recogemelazas" style="display: block;">
-     </div>
+<main>
+<!----------------------------------------------------------------------------------------->
+<main>
+  <div class="container">
+    <h1>Carrito de Compra</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th></th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="img/marble.jpg" alt="HC Marble" class="w-25"></td>
+          <td></td>
+          <td>14.95€</td>
+          <td>
+            <input type="number" class="form-control" value="1">
+          </td>
+          <td>14.95€</td>
+        </tr>
+        <tr>
+          <td><img src="img/neo.jpg" alt="HC Neo" class="w-25"></td>
+          <td></td>
+          <td>14.95€</td>
+          <td>
+            <input type="number" class="form-control" value="1">
+          </td>
+          <td>14.95€</td>
+        </tr>
+        <!-- Agrega más filas para otros productos si es necesario -->
+      </tbody>
+    </table>
+    <h3>Total: 29.90€</h3>
+    <button class="btn btn-primary">Comprar</button>
   </div>
-  <div class="col-sm-7">
-    <div class="mt-5 me-5">
-      <h3>Recogemelazas MR Shisha</h3>
-      <p>Mr Shisha estrena nuevo accesorio, en este caso un recogemelazas de acero a rosca.
-        Cuenta con una hendidura para recoger también la melaza que suda la cazoleta.
-
-        Además tiene con una goma inferior para no rayar el plato cuando lo enrosquemos.
-
-        Goma conector de cazoleta incluida.
-    </p>
-      <br>
-    </div>
-  </div>
-</div>
-<h3 class="precio ms-5">13.95€</h3>
-<a href="../carrito.html"><button class="btn boton mb-4 ms-5" type="submit">Comprar</button></a>
-<br>
-<!--Fin contenido-->
+</main>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!--Pie de pagina-->
 <div class="container my-5 bg-dark footer" >
     <footer class="bg-dark text-center text-white">

@@ -25,13 +25,24 @@
     color: rgb(255, 0, 0);
 }
 
+.editar{
+    background-color: rgb(229, 255, 0);
+    color: rgb(255, 0, 0);
+}
+
+.editar:hover{
+    border: solid rgb(229, 255, 0);
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
 .footer{
     height: 100px;
     bottom: 0;
     min-width: 100%;
     padding-right:0px;
     padding-left:0px;
-    display: block;
+    display: inline-block;
 }
 .pfooter{
     height: 100px;

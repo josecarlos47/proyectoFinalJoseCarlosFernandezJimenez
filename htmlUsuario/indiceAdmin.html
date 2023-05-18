@@ -64,12 +64,12 @@
 <main>
   <h1 class="text-center">Tendencias</h1>
   <div class="flex">
-    <div class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/mozePro.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">MOZE Breeze PRO</h5>
         <p class="card-text">La nueva cachimba de la marca Alemana viene para hacerse un hueco en España</p>
-        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a>
+        <a href="#" onclick="hideDiv(card)" class="btn btn-primary">Comprar</a> <a href="#" id="eliminar" class="btn btn-primary delete">Eliminar</a>
       </div>
     </div>
     <div class="card m-3 mt-4" style="width: 18rem;">
@@ -77,7 +77,7 @@
       <div class="card-body">
         <h5 class="card-title">Alpaca Suri</h5>
         <p class="card-text">Una de las mejores cazoletas del mercado la tenemos aquí.</p>
-        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a>
+        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" id="eliminar" class="btn btn-primary delete">Eliminar</a>
       </div>
     </div>
     <div class="card m-3 mt-4" style="width: 18rem;">

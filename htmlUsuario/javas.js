@@ -16,10 +16,8 @@ function validarCampos() {
     
   }
 
-  function redirect() {
-    if (validarCampos==true) {
-        location.href="indice.html"
-    }else{
-        location.href="registro.html"
+ function ocultarDiv(btn) {
+      var div = btn.parentElement;
+      div.style.display = "none";
     }
-  }
+  

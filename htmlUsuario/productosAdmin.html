@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilosIndex.css">
+    <script src="javas.js" defer></script>
     <title>Productos admin</title>
 </head>
 <body>
@@ -39,246 +40,251 @@
 <main>
   <h1 class="text-center">Cachimbas</h1>
   <div class="d-block">
-    <div class="flex">
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div  class="flex">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/mozePro.jpg" class="card-img-top" alt="Moze Creeze Pro">
-      <div class="card-body">
+  
         <h5 class="card-title">MOZE Breeze PRO</h5>
-        <a href="cachimbas/mozePro.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/mozePro.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>199,95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/alphaS.jpg" class="card-img-top" alt="Alpha">
-      <div class="card-body">
+  
         <h5 class="card-title">ALPHA HOOKAH Model S Green Candy</h5>
-        <a href="cachimbas/alpha.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/alpha.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>299.95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="https://www.hispacachimba.es/image/cache/catalog/regal/cachimba-regal-snake-550x550.jpg" class="card-img-top" alt="Bishop Snake">
-      <div class="card-body">
+  
         <h5 class="card-title">REGAL Bishop Snake</h5>
-        <a href="cachimbas/regal.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/regal.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>1299.95€</p>
-      </div>
+  
     
   </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/vittaMax.jpg" class="card-img-top" alt="Vitta Max">
-      <div class="card-body">
+  
         <h5 class="card-title">COLD SMOKE Vitta Max Pink</h5>
-        <a href="cachimbas/coldSmoke.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/coldSmoke.html" class="btn btn-primary">Comprar</a> <button href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</button> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>134.95€</p>
-      </div>
     </div>
+
   </div>
   <div class="flex">
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/fantom.jpg" class="card-img-top" alt=Fantom>
-      <div class="card-body">
         <h5 class="card-title">EL-BADIA Fantom</h5>
-        <a href="cachimbas/elBadia.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/elBadia.html" class="btn btn-primary">Comprar</a> 
+        <br>
+        <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> 
+        <br>
+        <a href="#" class="btn btn-primary editar">Editar</a>
         <p>69.90€</p>
-      </div>
+      
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/amotion1.jpg" class="card-img-top" alt="Amotion FlashBang">
-      <div class="card-body">
         <h5 class="card-title">Amotion hookah flash bang</h5>
-        <a href="cachimbas/amotion.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/amotion.html" class="btn btn-primary">Comprar</a> 
+        <br>
+        <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> 
+        <br>
+        <a href="#" class="btn btn-primary editar">Editar</a>
         <p>169.65€</p>
-      </div>
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/elBomberJerez.jpg" class="card-img-top" alt="El Bomber">
-      <div class="card-body">
+      
         <h5 class="card-title">EL BOMBER Jerez Limited Edition</h5>
-        <a href="cachimbas/elBomber.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/elBomber.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>399.45€</p>
-      </div>
+      
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/embery.jpg" class="card-img-top" alt="Embery Mono">
-      <div class="card-body">
+  
         <h5 class="card-title">EMBERY MONO Wave 3.0 Raspberry Clear</h5>
-        <a href="cachimbas/embery.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cachimbas/embery.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>204.95€</p>
-      </div>
+  
     </div>
   </div>
   <div class="flex">
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/alpacaSuri.jpg" class="card-img-top" alt="Alpaca Suri">
-      <div class="card-body">
+  
         <h5 class="card-title">ALPACA Suri</h5>
-        <a href="cazoletas/alpaca.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/alpaca.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>34,95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/oblako.png" class="card-img-top" alt="Oblako">
-      <div class="card-body">
+  
         <h5 class="card-title">OBLAKO Killer Glazed</h5>
-        <a href="cazoletas/oblako.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/oblako.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>30.95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/hcRevo.jpg" class="card-img-top" alt="HC Strip">
-      <div class="card-body">
+      
         <h5 class="card-title">HC Highfire Strip Black Gold</h5>
-        <a href="cazoletas/strip.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/strip.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>25.95€</p>
-      </div>
+      
     
   </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/marble.jpg" class="card-img-top" alt="HC Marble">
-      <div class="card-body">
+  
         <h5 class="card-title">HC Marble Tradi Trooper</h5>
-        <a href="cazoletas/marble.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/marble.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>14.95€</p>
-      </div>
+  
     </div>
   </div>
   <div class="flex">
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/aniversario.jpg" class="card-img-top" alt="HC Decimo Aniversario">
-      <div class="card-body">
+  
         <h5 class="card-title">HC HighFire10 Aniversario</h5>
-        <a href="cazoletas/aniversario.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/aniversario.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>14.95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/neo.jpg" class="card-img-top" alt="HC Neo">
-      <div class="card-body">
+  
         <h5 class="card-title">HC HighFire Neo Trooper</h5>
-        <a href="cazoletas/neo.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/neo.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>14.95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/rebel.jpg" class="card-img-top" alt="HC Rebel">
-      <div class="card-body">
+  
         <h5 class="card-title">HC HighFire Rebel</h5>
-        <a href="cazoletas/rebel.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/rebel.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>14.95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/kong.jpg" class="card-img-top" alt="Kong">
-      <div class="card-body">
+  
         <h5 class="card-title">KONG Rampage</h5>
-        <a href="cazoletas/kong.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="cazoletas/kong.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>40.33€</p>
-      </div>
+  
     </div>
   </div>
   <div class="flex">
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/pinzas.png" class="card-img-top" alt="Moze Creeze Pro">
-      <div data-aos="fade-in" class="card-body">
+  
         <h5 class="card-title">Pinzas Giant Tong</h5>
-        <a href="accesorios/pinzas.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/pinzas.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>7,95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/hornillo.png" class="card-img-top" alt="Alpha">
-      <div class="card-body">
+  
         <h5 class="card-title">Hornillo Electrico Shisha Turbine NeXt Summer Edition Pink Panther</h5>
-        <a href="accesorios/hornillo.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/hornillo.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>109.95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/carbonera.jpg" class="card-img-top" alt="Carbonera">
-      <div class="card-body">
+  
         <h5 class="card-title">Carbonera AO M Gold</h5>
-        <a href="accesorios/carbonera.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/carbonera.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>12.95€</p>
-      </div>
+  
     
   </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/recogeMelazas.jpg" class="card-img-top" alt="Recoge Melazas">
-      <div class="card-body">
+  
         <h5 class="card-title">Recogemelazas MR Shisha</h5>
-        <a href="accesorios/recogemelazas.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/recogemelazas.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>13.95€</p>
-      </div>
+  
     </div>
   </div>
-  <div data-aos="fade-in" class="flex">
+  <div id="card" class="flex">
     <div class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/plato.jpg" class="card-img-top" alt="Plato">
-      <div class="card-body">
+  
         <h5 class="card-title">Plato Mr Shisha Mini Khalifa Cascada</h5>
-        <a href="accesorios/plato.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/plato.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>9.90€</p>
-      </div>
+  
     </div>
-    <div class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/kaloud.jpg" class="card-img-top" alt="Gestor">
-      <div class="card-body">
+  
         <h5 class="card-title">HC Highfire sreip Black Gold</h5>
-        <a href="accesorios/gestor.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/gestor.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>20.50€</p>
-      </div>
+  
     </div>
-    <div class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/llavero.jpg" class="card-img-top" alt="Llavero">
-      <div class="card-body">
+  
         <h5 class="card-title">Llavero HC HighFire Rebel</h5>
-        <a href="accesorios/llavero.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/llavero.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>3.33€</p>
-      </div>
+  
     </div>
-    <div class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/tenedor.jpg" class="card-img-top" alt="Tenedor">
-      <div class="card-body">
+  
         <h5 class="card-title">Tenedor Resina Chameleon Hookah</h5>
-        <a href="accesorios/tenedor.html" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="accesorios/tenedor.html" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>8.95€</p>
-      </div>
+  
     </div>
   </div>
   <div class="flex">
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/kingCoco.jpg" class="card-img-top" alt="King Coco">
-      <div class="card-body">
+  
         <h5 class="card-title">Carbon natural KingCoco 1Kg</h5>
-        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>5,95€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/narine.jpg" class="card-img-top" alt="Narine">
-      <div class="card-body">
+  
         <h5 class="card-title">Carbon natural Narine 3Kg 26mm</h5>
-        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>16.50€</p>
-      </div>
+  
     </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/cocoSoul.jpg" class="card-img-top" alt="Coco Soul">
-      <div class="card-body">
+  
         <h5 class="card-title">Carbon natural CocoSoul 1Kg</h5>
-        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
-        <p>1299.95€</p>
-      </div>
+        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <p>12.95€</p>
+  
     
   </div>
-    <div data-aos="fade-in" class="card m-3 mt-4" style="width: 18rem;">
+    <div id="card" class="card m-3 mt-4" style="width: 18rem;">
       <img src="img/yakic.jpg" class="card-img-top" alt="Yacik">
-      <div class="card-body">
+  
         <h5 class="card-title">Pack 20Kg Yakic Cube 26mm</h5>
-        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
+        <a href="#" class="btn btn-primary">Comprar</a> <a href="#" onclick="ocultarDiv(this)" class="btn btn-primary delete">Eliminar</a> <a href="#" class="btn btn-primary editar">Editar</a>
         <p>134.95€</p>
-      </div>
+  
     </div>
   </div>
   </div>

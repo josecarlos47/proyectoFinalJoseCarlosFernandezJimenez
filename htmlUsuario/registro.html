@@ -34,7 +34,7 @@
           <div class="col-sm-6 col-md-5 form-section">
             <div class="login-wrapper">
               <h2 class="login-title">Registrarse</h2>
-              <form action="redirect()" onsubmit="validarCampos()">
+              <form action="#" onsubmit="validarCampos()" id="registro">
                 <div class="form-group">
                   <label for="email" class="sr-only">Email o Usuario</label>
                   <input type="email" name="email" id="email" class="form-control" placeholder="Email o nombre de usuario">
@@ -47,6 +47,7 @@
                     <label for="password" class="sr-only">Repetir Contraseña</label>
                     <input type="password" name="rpassword" id="rpassword" class="form-control" placeholder="Escriba de nuevo la contraseña">
                   </div>
+                  <p id="error">Las contraseñas no coinciden</p>
                   <div class="form-group">
                     <label for="email" class="sr-only">Numero de Teléfono</label>
                     <input type="number" name="telefono" id="telefono" class="form-control" placeholder="Diga su número de Teléfono">
@@ -57,14 +58,14 @@
                   </div>
                   <div class="form-group">
                     <label for="pais" class="sr-only">Ciudad, localidad</label>
-                    <input type="" name="ciudad" id="ciudad" class="form-control" placeholder="Ciudad , localidad">
+                    <input type="" name="ciudad" id="ciudad" class="form-control" placeholder="Ciudad, localidad">
                   </div>
                   <div class="form-group">
                     <label for="pais" class="sr-only">Dirección</label>
                     <input type="" name="direccion" id="direccion" class="form-control" placeholder="Dirección">
                   </div>
                   <br>
-                  <input name="login" id="login" class="btn login-btn boton" type="submit" value="Enviar">
+                  <input name="login" id="miBoton" class="btn login-btn boton" type="submit" value="Enviar">
               </form>       
             </div>
           </div>
